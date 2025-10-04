@@ -233,13 +233,13 @@ export default function App() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   onClick={() => window.open('https://wa.me/85255461658', '_blank')}
-                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-4 py-3 font-light text-sm sm:text-base sm:px-8 w-full sm:w-auto"
+                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-8 py-3 font-light"
                 >
                   {content.hero.whatsapp}
                 </Button>
                 <Button
                   onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-4 py-3 font-light text-sm sm:text-base sm:px-8 w-full sm:w-auto"
+                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-8 py-3 font-light"
                 >
                   {content.hero.pricing}
                 </Button>
@@ -463,7 +463,7 @@ export default function App() {
             </p>
             <Button
               onClick={() => window.open('https://wa.me/85255461658', '_blank')}
-              className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-12 py-4 font-light text-lg"
+              className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-6 py-4 font-light text-sm sm:text-base lg:text-lg sm:px-12"
             >
               {content.faq.cta.button}
             </Button>
