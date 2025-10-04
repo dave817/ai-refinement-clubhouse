@@ -14,7 +14,7 @@ export default function App() {
         faq: "FAQ"
       },
       hero: {
-        servicesButton: "3-day websites • 2-hour AI clarity • WhatsApp panic button",
+        servicesButton: "3-day websites • 2-hour AI clarity",
         heading1: "You're Invisible to",
         heading2: "DeepSeek & Google",
         subheading: "Your Customers Search. Find Competitors.\nNever You.",
@@ -93,7 +93,7 @@ export default function App() {
         faq: "常見問題"
       },
       hero: {
-        servicesButton: "三日搞掂個 website • 兩小時講清 AI 點用 • WhatsApp 隨時call我",
+        servicesButton: "三日搞掂個 website • 兩小時講清 AI 點用",
         heading1: "你嘅對手，網上一搵就揾到；",
         heading2: "你呢？完全影都無。",
         subheading: "可能你唔知咩事，但已經少左個大客。",
