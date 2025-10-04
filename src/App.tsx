@@ -212,7 +212,7 @@ export default function App() {
             {/* Left content */}
             <div className="space-y-8">
               {/* Services button */}
-              <Button className="bg-purple-500/20 backdrop-blur-md border border-purple-400/30 text-white hover:bg-purple-500/30 transition-all duration-300 rounded-full px-6 py-3 text-[9px] sm:text-sm md:text-base sm:px-6 whitespace-normal text-center leading-relaxed w-full sm:w-auto">
+              <Button className="bg-purple-500/20 backdrop-blur-md border border-purple-400/30 text-white hover:bg-purple-500/30 transition-all duration-300 rounded-full px-4 py-2 text-xs sm:text-sm md:text-base sm:px-6 whitespace-normal text-center leading-relaxed">
                 {content.hero.servicesButton}
               </Button>
 
