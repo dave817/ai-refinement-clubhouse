@@ -230,7 +230,7 @@ export default function App() {
               </div>
 
               {/* CTA buttons */}
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4" key={language}>
                 <Button
                   onClick={() => window.open('https://wa.me/85255461658', '_blank')}
                   className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-8 py-3 font-light"

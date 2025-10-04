@@ -2,7 +2,7 @@ import flowingVideo from '../assets/dave81793_01150_12688_glossy_liquid_glass_fl
 
 export function BottomSection() {
   return (
-    <div className="relative w-full h-96 md:h-96 overflow-hidden">
+    <div className="relative w-full h-[36rem] md:h-96 overflow-hidden">
       <video
         className="w-full h-full object-cover scale-150 md:scale-100"
         autoPlay
