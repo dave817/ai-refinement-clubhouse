@@ -212,7 +212,7 @@ export default function App() {
             {/* Left content */}
             <div className="space-y-8">
               {/* Services button */}
-              <Button className="bg-purple-500/20 backdrop-blur-md border border-purple-400/30 text-white hover:bg-purple-500/30 transition-all duration-300 rounded-full px-6 py-2">
+              <Button className="bg-purple-500/20 backdrop-blur-md border border-purple-400/30 text-white hover:bg-purple-500/30 transition-all duration-300 rounded-full px-4 py-2 text-xs sm:text-sm md:text-base sm:px-6 whitespace-normal text-center leading-relaxed">
                 {content.hero.servicesButton}
               </Button>
 
@@ -233,13 +233,13 @@ export default function App() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   onClick={() => window.open('https://wa.me/85255461658', '_blank')}
-                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-8 py-3 font-light"
+                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-4 py-3 font-light text-sm sm:text-base sm:px-8 w-full sm:w-auto"
                 >
                   {content.hero.whatsapp}
                 </Button>
                 <Button
                   onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-8 py-3 font-light"
+                  className="bg-gray-800/40 backdrop-blur-md border border-gray-600/30 text-white hover:bg-gray-700/50 transition-all duration-300 rounded-full px-4 py-3 font-light text-sm sm:text-base sm:px-8 w-full sm:w-auto"
                 >
                   {content.hero.pricing}
                 </Button>
